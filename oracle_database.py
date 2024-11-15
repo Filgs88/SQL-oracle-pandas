@@ -4,9 +4,9 @@ class Conexao:
     def conection():
         con = pyodbc.connect(
         'Driver={Oracle em OraClient11g_home2};'
-        'dbq=168.194.255.144:1521/cs0084p;'
-        'Uid=fatimaagro;'
-        'Pwd=A#QNK2bdJh8US;'
+        'dbq=host ip:port/hostname;'
+        'Uid=user id;'
+        'Pwd=pwd;'
         )
         return con
         
